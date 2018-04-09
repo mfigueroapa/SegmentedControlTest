@@ -12,6 +12,9 @@
 		22B0CB6B207AE70B00126A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B0CB69207AE70B00126A46 /* Main.storyboard */; };
 		22B0CB6D207AE70D00126A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B0CB6C207AE70D00126A46 /* Assets.xcassets */; };
 		22B0CB70207AE70D00126A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B0CB6E207AE70D00126A46 /* LaunchScreen.storyboard */; };
+		22B0CB79207AE7F900126A46 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0CB78207AE7F900126A46 /* Model.swift */; };
+		22B0CB7E207AEB0F00126A46 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0CB7C207AEB0F00126A46 /* CustomCell.swift */; };
+		22B0CB7F207AEB0F00126A46 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B0CB7D207AEB0F00126A46 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		22B0CB6C207AE70D00126A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B0CB6F207AE70D00126A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B0CB71207AE70D00126A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B0CB78207AE7F900126A46 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		22B0CB7C207AEB0F00126A46 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		22B0CB7D207AEB0F00126A46 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		22B0CB64207AE70B00126A46 /* SegmentedControlTest */ = {
 			isa = PBXGroup;
 			children = (
+				22B0CB80207AEB1900126A46 /* Custom Classes */,
+				22B0CB77207AE7E300126A46 /* Model */,
 				22B0CB65207AE70B00126A46 /* AppDelegate.swift */,
 				22B0CB67207AE70B00126A46 /* ViewController.swift */,
 				22B0CB69207AE70B00126A46 /* Main.storyboard */,
@@ -62,6 +70,31 @@
 				22B0CB71207AE70D00126A46 /* Info.plist */,
 			);
 			path = SegmentedControlTest;
+			sourceTree = "<group>";
+		};
+		22B0CB77207AE7E300126A46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22B0CB78207AE7F900126A46 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22B0CB80207AEB1900126A46 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22B0CB81207AEB2200126A46 /* Cell */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		22B0CB81207AEB2200126A46 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22B0CB7C207AEB0F00126A46 /* CustomCell.swift */,
+				22B0CB7D207AEB0F00126A46 /* CustomCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +157,7 @@
 			files = (
 				22B0CB70207AE70D00126A46 /* LaunchScreen.storyboard in Resources */,
 				22B0CB6D207AE70D00126A46 /* Assets.xcassets in Resources */,
+				22B0CB7F207AEB0F00126A46 /* CustomCell.xib in Resources */,
 				22B0CB6B207AE70B00126A46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B0CB79207AE7F900126A46 /* Model.swift in Sources */,
 				22B0CB68207AE70B00126A46 /* ViewController.swift in Sources */,
+				22B0CB7E207AEB0F00126A46 /* CustomCell.swift in Sources */,
 				22B0CB66207AE70B00126A46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
